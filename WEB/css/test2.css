@@ -1,0 +1,25 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "CentSchbkCyrill BT" ,"monotype corsiva";
+}
+.blur-background {
+    background: url(../img/college.jpg);
+    background-size: cover;
+    filter: blur(8px);
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .transparent-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Білий колір з прозорістю 50% */
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
